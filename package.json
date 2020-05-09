@@ -1,0 +1,11 @@
+{
+  "name": "serverForBrand",
+  "version": "0.90.0951",
+  "private": true,
+  "scripts": {
+    "serve": "node serve"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -1,0 +1,418 @@
+[
+  {
+    "id": 6970387,
+    "url": "https://img1.wbstatic.net/big/new/6970000/6970387-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 6
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Шорты",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Бермуды - CICLY",
+    "material": "Полиэстер 62%, вискоза 33%, эластан 5%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae debitis ipsam laudantium magni maiores modi quos recusandae. Accusamus alias atque commodi dolorem incidunt nihil numquam quia tenetur!",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 1115,
+    "rating": 5,
+    "sold": 300
+  },
+  {
+    "id": 11798677,
+    "url": "https://img1.wbstatic.net/big/new/11790000/11798677-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 6
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка - MAURO2",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, hic inventore iusto officiis quam quia rerum! Accusamus culpa cupiditate itaque, minus perspiciatis quasi saepe? At debitis ducimus ex, itaque nobis non repellendus vero.",
+    "color": {
+      "value": "red",
+      "title": "Красный"
+    },
+    "links": [11798678],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 1679,
+    "rating": 0,
+    "sold": 5
+  },
+  {
+    "id": 11798678,
+    "url": "https://img2.wbstatic.net/big/new/11790000/11798678-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка - MAURO2",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci, hic inventore iusto officiis quam quia rerum! Accusamus culpa cupiditate itaque, minus perspiciatis quasi saepe? At debitis ducimus ex, itaque nobis non repellendus vero.",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [11798677],
+    "size": ["XS", "S", "M", "L"],
+    "price": 1919,
+    "rating": 0,
+    "sold": 5
+  },
+  {
+    "id": 11511712,
+    "url": "https://img2.wbstatic.net/big/new/11510000/11511712-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка - LAI2",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci asperiores atque beatae, blanditiis commodi corporis cupiditate ducimus eos et eveniet excepturi impedit iste iusto natus neque nisi nostrum officiis provident quae quaerat repudiandae sunt veritatis vitae. Aliquam necessitatibus nemo pariatur perspiciatis quis!",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 1928,
+    "rating": 4,
+    "sold": 30
+  },
+  {
+    "id": 11645771,
+    "url": "https://img1.wbstatic.net/big/new/11640000/11645771-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 8
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка - FULPLIT",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis dolor explicabo, incidunt ipsam iste labore molestiae nisi non nostrum numquam, quod recusandae reprehenderit sed tempora unde voluptate. Atque, dolorem, eveniet?",
+    "color": {
+      "value": "green",
+      "title": "Зеленый"
+    },
+    "links": [11715542],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 1679,
+    "rating": 4,
+    "sold": 50
+  },
+  {
+    "id": 11715542,
+    "url": "https://img2.wbstatic.net/big/new/11710000/11715542-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка - FULPLIT",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae blanditiis dolor explicabo, incidunt ipsam iste labore molestiae nisi non nostrum numquam, quod recusandae reprehenderit sed tempora unde voluptate. Atque, dolorem, eveniet?",
+    "color": {
+      "value": "yellow",
+      "title": "Желтый"
+    },
+    "links": [11645771],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 2379,
+    "rating": 4,
+    "sold": 5
+  },
+  {
+    "id": 8986624,
+    "url": "https://img2.wbstatic.net/big/new/8980000/8986624-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка-боди",
+    "material": "Полиэстер 98%, эластан 2%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ea, eaque earum fugit impedit laboriosam nihil nisi omnis porro praesentium quis reiciendis sunt velit voluptatum.",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [8986623],
+    "size": ["S", "M", "L"],
+    "price": 520,
+    "rating": 4,
+    "sold": 100
+  },
+  {
+    "id": 8986623,
+    "url": "https://img1.wbstatic.net/big/new/8980000/8986623-.jpg",
+    "img": {
+      "main": 2,
+      "current": 2,
+      "quantity": 8
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Блузка-боди",
+    "material": "Полиэстер 98%, эластан 2%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deleniti ea, eaque earum fugit impedit laboriosam nihil nisi omnis porro praesentium quis reiciendis sunt velit voluptatum.",
+    "color": {
+      "value": "beige",
+      "title": "Бежевый"
+    },
+    "links": [8986624],
+    "size": ["S", "M", "L"],
+    "price": 520,
+    "rating": 4,
+    "sold": 100
+  },
+  {
+    "id": 4214886,
+    "url": "https://img2.wbstatic.net/big/new/4210000/4214886-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 6
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Блузки и рубашки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Болеро",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore dolores fugit nemo sed sunt? Ad hic laudantium magni maxime placeat repellendus sed totam veniam. Atque beatae culpa cupiditate debitis expedita, ipsum nemo pariatur perspiciatis sapiente vel.",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [],
+    "size": ["XS", "S", "M", "L", "XL"],
+    "price": 1487,
+    "rating": 5,
+    "sold": 80
+  },
+  {
+    "id": 11645839,
+    "url": "https://img1.wbstatic.net/big/new/11640000/11645839-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 4
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - RARITY",
+    "material": "Полиэстер 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab cum, dignissimos dolor dolorem est eveniet ex illum quas quis rem sapiente ut.",
+    "color": {
+      "value": "cyan",
+      "title": "Светло-голубой"
+    },
+    "links": [],
+    "size": ["S", "M", "L", "XL"],
+    "price": 2309,
+    "rating": 0,
+    "sold": 10
+  },
+  {
+    "id": 11646073,
+    "url": "https://img1.wbstatic.net/big/new/11640000/11646073-.jpg",
+    "img": {
+      "main": 4,
+      "current": 4,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - COLA",
+    "material": "Вискоза 76%, полиамид 21%, эластан 3%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam assumenda exercitationem iusto minus molestiae nulla optio provident, quibusdam vel? Eius in iusto nam nesciunt non quo recusandae sunt! Ea et officiis omnis quidem!",
+    "color": {
+      "value": "white",
+      "title": "Белый"
+    },
+    "links": [9721703, 9936653],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1049,
+    "rating": 4,
+    "sold": 30
+  },
+  {
+    "id": 9721703,
+    "url": "https://img1.wbstatic.net/big/new/9720000/9721703-.jpg",
+    "img": {
+      "main": 4,
+      "current": 4,
+      "quantity": 6
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - COLA",
+    "material": "Вискоза 76%, полиамид 21%, эластан 3%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam assumenda exercitationem iusto minus molestiae nulla optio provident, quibusdam vel? Eius in iusto nam nesciunt non quo recusandae sunt! Ea et officiis omnis quidem!",
+    "color": {
+      "value": "black",
+      "title": "Черный"
+    },
+    "links": [11646073, 9936653],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1049,
+    "rating": 4,
+    "sold": 300
+  },
+  {
+    "id": 9936653,
+    "url": "https://img1.wbstatic.net/big/new/9930000/9936653-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - COLA",
+    "material": "Вискоза 76%, полиамид 21%, эластан 3%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad aperiam assumenda exercitationem iusto minus molestiae nulla optio provident, quibusdam vel? Eius in iusto nam nesciunt non quo recusandae sunt! Ea et officiis omnis quidem!",
+    "color": {
+      "value": "beige",
+      "title": "Бежевый"
+    },
+    "links": [11646073, 9721703],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1049,
+    "rating": 4,
+    "sold": 10
+  },
+  {
+    "id": 11632596,
+    "url": "https://img2.wbstatic.net/big/new/11630000/11632596-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - BORELI",
+    "material": "Лен 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta dignissimos dolore iure libero, placeat quis ullam unde! Accusantium aspernatur consectetur consequuntur esse incidunt iste officiis praesentium quae veniam! Assumenda eius eum, ex fugiat iusto laudantium maxime sequi ullam.",
+    "color": {
+      "value": "white",
+      "title": "Белый"
+    },
+    "links": [11632597, 11632598],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1847,
+    "rating": 5,
+    "sold": 20
+  },
+  {
+    "id": 11632597,
+    "url": "https://img1.wbstatic.net/big/new/11630000/11632597-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - BORELI",
+    "material": "Лен 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta dignissimos dolore iure libero, placeat quis ullam unde! Accusantium aspernatur consectetur consequuntur esse incidunt iste officiis praesentium quae veniam! Assumenda eius eum, ex fugiat iusto laudantium maxime sequi ullam.",
+    "color": {
+      "value": "yellow",
+      "title": "Желтый"
+    },
+    "links": [11632596, 11632598],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1847,
+    "rating": 5,
+    "sold": 10
+  },
+  {
+    "id": 11632598,
+    "url": "https://img2.wbstatic.net/big/new/11630000/11632598-.jpg",
+    "img": {
+      "main": 1,
+      "current": 1,
+      "quantity": 7
+    },
+    "page": "women",
+    "type": "Одежда",
+    "category": "Брюки",
+    "gender": "Женщинам",
+    "brand": "Mango",
+    "title": "Брюки - BORELI",
+    "material": "Лен 100%",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa dicta dignissimos dolore iure libero, placeat quis ullam unde! Accusantium aspernatur consectetur consequuntur esse incidunt iste officiis praesentium quae veniam! Assumenda eius eum, ex fugiat iusto laudantium maxime sequi ullam.",
+    "color": {
+      "value": "pink",
+      "title": "Розовый"
+    },
+    "links": [11632596, 11632597],
+    "size": ["XXS", "XS", "S", "M", "L", "XL", "XXL"],
+    "price": 1847,
+    "rating": 5,
+    "sold": 80
+  }
+]

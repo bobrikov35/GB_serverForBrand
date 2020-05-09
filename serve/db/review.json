@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1,
+    "message": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, ea, quasi.",
+    "user": {
+      "id": "user001",
+      "name": "Татьяна Г.",
+      "photo": "/photos/user001.jpg",
+      "country": "Россия",
+      "city": "Москва"
+    }
+  },
+  {
+    "id": 2,
+    "message": "Accusantium amet atque commodi consequatur delectus doloremque ea eos est et facilis illo illum in incidunt laborum laudantium minima, nam nemo, odit possimus quaerat quidem ratione sapiente vitae voluptatem voluptatum!",
+    "user": {
+      "id": "user002",
+      "name": "Марина С.",
+      "photo": "/photos/user002.jpg",
+      "country": "Россия",
+      "city": "Санкт-Петербург"
+    }
+  },
+  {
+    "id": 3,
+    "message": "Animi asperiores at aut consequatur cum cumque ea earum eos esse excepturi explicabo facilis fugiat in iusto magnam magni maxime modi necessitatibus obcaecati quam quos recusandae repellendus repudiandae, soluta vel velit veritatis, voluptas voluptates?",
+    "user": {
+      "id": "user003",
+      "name": "Екатерина М.",
+      "photo": "/photos/user003.jpg",
+      "country": "Россия",
+      "city": "Москва"
+    }
+  }
+]
