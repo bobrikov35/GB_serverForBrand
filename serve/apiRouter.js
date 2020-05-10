@@ -184,7 +184,7 @@ router.get('/product', (req, res) => {
 /**
  * Считывает отзывы из базы и возвращает список отзывов
  */
-router.get('В', (req, res) => {
+router.get('/review', (req, res) => {
   fs.readFile(reviewUrl, 'utf-8', (err, data) => {
     if (err) {
       res.sendStatus(404, JSON.stringify({ result: 0, text: err }));
