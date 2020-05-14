@@ -8,6 +8,21 @@ const regionsUrl = './serve/db/regions.json';
 const citiesUrl = './serve/db/cities.json';
 
 /**
+ * Преобразует строку в объект
+ * @param JsonString - преобразуемая строка
+ * @returns {undefined|*} возвращает объект или "undefined"
+ */
+const parser = (JsonString) => {
+  let result;
+  try {
+    result = JSON.parse(JsonString);
+  } catch (err) {
+    return undefined;
+  }
+  return result;
+};
+
+/**
  * Фильтрует каталог по выбранной странице и гендерному признаку
  * @param query - запрос => pages: ['women', 'men', 'kids', 'accessories'],
  *                          gender: 'Женщинам' | 'Мужчинам' | 'Мальчикам' | 'Девочкам' | 'Младенцам'
@@ -15,18 +30,18 @@ const citiesUrl = './serve/db/cities.json';
  * @returns {*}
  */
 const filterCatalog = (query, data) => {
-  let pages = undefined;
+  let page = undefined;
   let gender = undefined;
   const checkPage = (curPage) => {
-    if (!pages) return true;
-    return pages.includes(curPage);
+    if (!page) return true;
+    return curPage === page;
   };
   const checkGender = (curGender) => {
     if (!gender) return true;
     return curGender === gender;
   };
-  if ('pages' in query) pages = JSON.parse(query['pages']);
-  if ('gender' in query) gender = query['gender'];
+  if ('page' in query) page = query.page;
+  if ('gender' in query) gender = query.gender;
   let tmpData = JSON.parse(data);
   return tmpData.filter((el) => checkGender(el.gender) && checkPage(el.page));
 };
@@ -39,13 +54,28 @@ router.get('/catalog', (req, res) => {
     if (err) {
       res.sendStatus(404, JSON.stringify({result: 0, text: err}));
     } else {
+      let categories = undefined;
+      if ('categories' in req.query) categories = parser(req.query.categories);
+      let brands = undefined;
+      if ('brands' in req.query) brands = parser(req.query.brands);
+      let colors = undefined;
+      if ('colors' in req.query) colors = parser(req.query.colors);
       let filter = undefined;
-      if ('filter' in req.query) filter = JSON.parse(req.query.filter);
+      if ('filter' in req.query) filter = parser(req.query.filter);
       let sortBy = undefined;
-      if ('sortBy' in req.query) sortBy = JSON.parse(req.query.sortBy);
+      if ('sortBy' in req.query) sortBy = parser(req.query.sortBy);
       let quantity = undefined;
       if ('quantity' in req.query) quantity = +req.query.quantity;
       let newData = filterCatalog(req.query, data);
+      if (categories) {
+        newData = newData.filter((el) => categories.includes(el.type + el.category));
+      }
+      if (brands) {
+        newData = newData.filter((el) => brands.includes(el.brand));
+      }
+      if (colors) {
+        newData = newData.filter((el) => colors.includes(el.color.value));
+      }
       for (const key in filter) {
         newData = newData.filter((el) => {
           if (typeof el[key] === "string") {
@@ -81,7 +111,7 @@ router.get('/catalog', (req, res) => {
             });
         }
       }
-      if (quantity) {
+      if (!isNaN(quantity) && quantity) {
         res.send(JSON.stringify(newData.slice(0, quantity)));
       } else {
         res.send(JSON.stringify(newData));
@@ -113,10 +143,19 @@ router.get('/catalog/categories', (req, res) => {
     } else {
       let newData = filterCatalog(req.query, data).map((el) => `${el.type}\n${el.category}`);
       newData = selectDistinct(newData);
-      res.send(JSON.stringify(newData.map((el) => {
+      newData = newData.map((el) => {
         const obj = el.split(`\n`);
         return { type: obj[0], category: obj[1] };
-      })));
+      });
+      const resData = [];
+      for (let i = 0; i < newData.length; i++) {
+        if (i === 0 || newData[i].type !== newData[i-1].type) {
+          resData.push({ type: newData[i].type, categories: [newData[i].category] });
+        } else {
+          resData[resData.length-1].categories.push(newData[i].category);
+        }
+      }
+      res.send(JSON.stringify(resData));
     }
   });
 });
