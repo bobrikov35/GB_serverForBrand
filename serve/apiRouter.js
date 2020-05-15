@@ -25,25 +25,25 @@ const parser = (JsonString) => {
 /**
  * Фильтрует каталог по выбранной странице и гендерному признаку
  * @param query - запрос => pages: ['women', 'men', 'kids', 'accessories'],
- *                          gender: 'Женщинам' | 'Мужчинам' | 'Мальчикам' | 'Девочкам' | 'Младенцам'
+ *                          collection: 'Женская коллекция' | 'Мужская ...' | 'Детская ...' | 'Коллекция аксессуаров'
  * @param data
  * @returns {*}
  */
 const filterCatalog = (query, data) => {
   let page = undefined;
-  let gender = undefined;
+  let collection = undefined;
   const checkPage = (curPage) => {
     if (!page) return true;
     return curPage === page;
   };
-  const checkGender = (curGender) => {
-    if (!gender) return true;
-    return curGender === gender;
+  const checkCollection = (curCollection) => {
+    if (!collection) return true;
+    return curCollection === collection;
   };
   if ('page' in query) page = query.page;
-  if ('gender' in query) gender = query.gender;
+  if ('collection' in query) collection = query.collection;
   let tmpData = JSON.parse(data);
-  return tmpData.filter((el) => checkGender(el.gender) && checkPage(el.page));
+  return tmpData.filter((el) => checkCollection(el.collection) && checkPage(el.page));
 };
 
 /**
