@@ -76,14 +76,14 @@ router.get('/catalog', (req, res) => {
       if (colors) {
         newData = newData.filter((el) => colors.includes(el.color.value));
       }
-      for (const key in filter) {
+      if (filter) {
         newData = newData.filter((el) => {
-          if (typeof el[key] === "string") {
-            const regexp = new RegExp(filter[key], 'i');
-            return regexp.test(el[key]);
-          } else {
-            return el[key].includes(filter[key]);
+          const strEl = JSON.stringify(el);
+          for (let i = 0; i < filter.length; i++) {
+            const regexp = new RegExp(filter[i], 'i');
+            if (!regexp.test(strEl)) return false;
           }
+          return true;
         });
       }
       for (const key in sortBy) {
